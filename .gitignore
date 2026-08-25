@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# FLUKA output files
+*.bnn
+*.lis
+*_fort.*
+_fort.*
+
+# Data files
+*.csv
+*.png
+*.pdf
+*.svg
+
+# But keep README images if any
+!docs/**/*.png
+!docs/**/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
